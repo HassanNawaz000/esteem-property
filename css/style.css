@@ -209,15 +209,15 @@
 
 
 /*** Icon ***/
-.icon {
+ /* .icon {
     padding: 15px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     background: #FFFFFF !important;
-    border-radius: 50px;
-    border: 1px dashed var(--primary) !important;
-}
+    border-radius: 20px;
+    border: 1px dashed var(--primary) !important; 
+}   */
 
 
 /*** About ***/
@@ -236,6 +236,12 @@
     background: var(--primary);
     transform: skew(20deg);
     z-index: 1;
+}
+
+.transparent-dropdown {
+  background-color: rgba(255, 255, 255, 0.6); /* semi-transparent white */
+  backdrop-filter: blur(5px); /* optional blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* subtle border */
 }
 
 
